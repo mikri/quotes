@@ -6,6 +6,11 @@
     "modernizr": "~2.8.3",
     "slabText": "~2.2.0"
   },
+  "overrides": {
+    "slabText": {
+      "main": "js/jquery.slabtext.js"
+    }
+  },
   "devDependencies": {
     "chai": "~3.4.2",
     "mocha": "~2.3.4"
