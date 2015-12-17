@@ -1,4 +1,4 @@
-console.log('\'Allo \'Allo!'); // eslint-disable-line no-console
+// eslint-disable-line no-console
 
 $("blockquote p").slabText({
   // Don't slabtext the headers if the viewport is under 380px

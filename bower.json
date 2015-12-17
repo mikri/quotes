@@ -4,8 +4,6 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "modernizr": "~2.8.3",
-    "bigtext": "~0.1.8",
-    "FitText.js": "~1.2.0",
     "slabText": "~2.2.0"
   },
   "devDependencies": {
