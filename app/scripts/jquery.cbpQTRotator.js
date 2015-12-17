@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -41,7 +41,7 @@
 			this.$items.eq( this.current ).addClass( 'cbp-qtcurrent' );
 			// set the transition to the items
 			if( this.support ) {
-				this._setTransition();
+			//	this._setTransition();
 			}
 			// start rotating the items
 			this._startRotator();
@@ -94,7 +94,7 @@
 
 		},
 		_startProgress : function() {
-			
+
 			setTimeout( $.proxy( function() {
 				this.$progress.css( { transition : 'width ' + this.options.interval + 'ms linear', width : '100%' } );
 			}, this ), 25 );
@@ -139,9 +139,9 @@
 				}
 				instance[ options ].apply( instance, args );
 			});
-		} 
+		}
 		else {
-			this.each(function() {	
+			this.each(function() {
 				var instance = $.data( this, 'cbpQTRotator' );
 				if ( instance ) {
 					instance._init();
